@@ -1,0 +1,3 @@
+if(empty(variables('Price modifier')), '', concat('/cim_pricemodifiers(', outputs('Get_the_Price_Modifier')?['body/cim_pricemodifierid'], ')'))
+
+This is the expression to check if you get the lookup value then use that value to set in the lookup field in power automate otherwise dont set anything 
